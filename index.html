@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Dinner fiasco!</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+
+	<body>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+</style>
+        <h1>The dinner fiasco!</h1>
+		<h3 id = "adjective">Name an adjective</h3>
+		<h3 id = "adjective2">Name another adjective</h3>
+		<h3 id = "bird">Type of bird</h3>
+        <h3 id = "room">Room in a house</h3>
+        <h3 id = "verbpt">Verb (Past tense)</h3>
+        <h3 id = "verb">Verb</h3>
+        <h3 id = "name">Any name</h3>
+        <h3 id = "noun">Noun</h3>
+        <h3 id = "liquid">Any liquid</h3>
+        <h3 id ="verb3">A verb ending in -ing</h3>
+        <h3 id ="body">A part of the body(Plural)</h3>
+        <h3 id ="plural">Plural noun</h3>
+        <h3 id ="verb4">Verb ending in -ing</h3>
+        <h3 id ="noun2">Noun</h3>
+		
+		<script>
+		    var padj = prompt("Name an adjective");
+	        var ptwo = prompt("Name another adjective");
+	        var pbir = prompt("Type of bird");
+            var prom = prompt("Room in a house");
+            var pverp = prompt("A verb in past tense");
+            var pver = prompt("A verb");
+            var pnam = prompt("Any name");
+            var pnou = prompt("Noun");
+            var pliq = prompt("Any liquid");
+            var pver3 = prompt("A verb ending in -ing");
+            var pbod = prompt("A plural part of the body");
+            var pural = prompt("Plural noun");
+            var pver4 = prompt("Verb ending in -ing");
+            var pnou2 = prompt("Noun");
+	        
+	        var adj = document.getElementById("adjective");
+	        var adj2 = document.getElementById("adjective2");
+	        var bird = document.getElementById("bird");
+            var room = document.getElementById("room");
+            var verbpt = document.getElementById("verbpt");
+            var verb = document.getElementById("verb");
+            var name1 = document.getElementById("name");
+            var noun = document.getElementById("noun");
+            var liquid = document.getElementById("liquid");
+            var verb3 = document.getElementById("verb3");
+            var body = document.getElementById("body");
+            var plural = document.getElementById("plural");
+            var verb4 = document.getElementById("verb4");
+            var noun2 = document.getElementById("noun2")
+
+	        
+	        adj.innerHTML="It was a " + padj;
+	        adj2.innerHTML="cold November day. I woke up to the " + ptwo;
+	        bird.innerHTML="smell of " + pbir;
+            room.innerHTML="roasting in the " + prom;
+            verbpt.innerHTML="downstairs. I " + pverp;
+            verb.innerHTML="down the stairs to see if I could help " + pver;
+            name1.innerHTML="the dinner. My mom said, see if " + pnam;
+            noun.innerHTML="needs a fresh " + pnou;
+            liquid.innerHTML="So I carried a tray of glasses full of " + pliq;
+            verb3.innerHTML="into the " + pver3;
+            body.innerHTML="room. When I got there, I couldent beleve my " + pbod;
+            plural.innerHTML=" " + pural;
+            verb4.innerHTML="on the " + pver4;
+            noun2.innerHTML=" " + pnou2;
+		</script>
+	</body>
+</html>
